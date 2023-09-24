@@ -1,6 +1,6 @@
 'use strict';
 
-const mimeTypes = require('mime-types');
+const mimeTypes = require('@edge-js/mime-types');
 const LRU = require('ylru');
 
 const typeLRUCache = new LRU(100);

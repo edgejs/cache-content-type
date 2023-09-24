@@ -1,5 +1,5 @@
 {
-  "name": "cache-content-type",
+  "name": "@edge-js/cache-content-type",
   "version": "1.0.1",
   "description": "Create a full Content-Type header given a MIME type or extension and catch the result",
   "main": "index.js",
@@ -12,7 +12,7 @@
     "ci": "eslint . && npm run cov"
   },
   "dependencies": {
-    "mime-types": "^2.1.18",
+    "@edge-js/mime-types": "^2.1.18",
     "ylru": "^1.2.0"
   },
   "devDependencies": {
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/node-modules/cache-content-type.git"
+    "url": "https://github.com/edgejs/cache-content-type.git"
   },
   "keywords": [
     "mime",
